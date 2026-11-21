@@ -47,3 +47,46 @@ function CalculateBill()
 }
 selected_equipment.addEventListener("change",CalculateBill);
 rent_duration.addEventListener("input",CalculateBill);
+
+
+const quoteForm = document.getElementById("quote_form");
+const WHATSAPP_NUMBER = "8801331529976";   
+quoteForm.addEventListener("submit", function (event) {
+event.preventDefault();   
+const customerName = document.getElementById("name").value.trim();
+  const phone = document.getElementById("phone").value.trim();
+  const equipmentName = selected_equipment.value;
+  const days = Number(rent_duration.value);
+  const details = document.getElementById("message").value.trim();
+
+  
+  if (!/^01[3-9]\d{8}$/.test(phone)) {
+    alert("Please enter a valid 11-digit phone number, e.g. 017XXXXXXXX");
+    return;
+  }
+
+  
+  const item = equipment.find(function (e) {
+    return e.name === equipmentName;
+  });
+
+  let totalLine = "";
+  if (item) {
+    const bill = item.rental_price * days;
+    totalLine = `Estimated total: ৳${bill.toLocaleString("en-IN")}\n`;
+  }
+
+  
+  const text =
+    `Hello Luminous Technologies,\n` +
+    `I would like to request a quote.\n\n` +
+    `Name: ${customerName}\n` +
+    `Phone: ${phone}\n` +
+    `Equipment: ${equipmentName}\n` +
+    `Duration: ${days} day(s)\n` +
+    totalLine +
+    `Details: ${details || "N/A"}`;
+
+  const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+  window.open(url, "_blank");
+});
