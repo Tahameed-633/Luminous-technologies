@@ -21,7 +21,7 @@
             <h1>Welcome To Luminous Technologies</h1>
             <h2>Powering your construction project</h2>
             <p>Your trusted partner for construction equipment rental and sales</p>
-            <a href="#equipment">Explore Our equipment</a>
+            <a href="#equipment">Explore Our Equipment</a>
             <a href="#contacts">Contact Us</a>
         </section>
         <section id="equipment">
@@ -40,13 +40,13 @@
             </article>
             <article>
                 <h3>25 Ton Crane</h3>
-                <img src="25 ton crane.jpg ">
+                <img src="25 ton crane.jpg " alt="25 Ton Crane">
                 <p>Rental Price:৳20,000/day</p>
                 <a href="#contacts">Rent Now</a>
             </article>
             <article>
                 <h3>100 Ton Crane</h3>
-                <img src="25 ton crane.jpg ">
+                <img src="100 ton crane.jpg " alt="100 Ton Crane">
                 <p>Rental Price:৳25,000/day</p>
                 <a href="#contacts">Rent Now</a>
             </article>
@@ -63,9 +63,90 @@
              </article>
             </section>
         <section id="contacts">
-            <h2>Contact Us</h2>
-            <p>Phone:<a href="tel:+8801331529976">01331529976</a></p>
-            <p>Email:<a href="mailto:tahameedkarim@gmail.com">tahameedkarim@gmail.com</a></p>
+            <h2>Contact &amp; Request a Quote</h2>
+            <p class="contact-subtitle">
+                Reach out directly or fill out the form below for rental and sales related inquiries.
+            </p>
+            <div class="contact-container">
+                <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>
+                    <strong>Phone:</strong>
+                    <a href="tel:+8801331529976">
+                        01331529976
+                    </a>
+                </p>
+                <p>
+                    <strong>
+                        Email:
+                    </strong>
+                    <a href="mailto:tahameedkarim@gmail.com">
+                        tahameedkarim@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <strong>
+                        Location:
+                    </strong>
+                    Dhaka,Bangladesh
+                </p>
+                <p>
+                    <strong>
+                        Working Hours:
+                    </strong>
+                    Sat-Thu, 9:00 AM-6:00 PM
+                </p>
+                </div>
+                 <form class="quote-form"  id="quote_form">
+                    <div>
+                        <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your name" 
+                                required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number:</label>
+                                <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="e.g. 017xxxxxxxxx"
+                                required>
+                            </div>
+                            <div class="form-group">
+                                <label for="equipment-select">Select Equipment</label>
+                                <select id="equipment-select" name="equipment" required>
+                                    <option value=" ">--Choose equipment--</option>
+                                    <option value="Excavator">Excavator(৳ 15,000/day)</option>
+                                    <option value="mailto">Manlift(৳ 12,000/day)</option>
+                                    <option value="25 Ton Crane">25 Ton Crane(৳20,000/day)</option>
+                                    <option value="100 Ton Crane">100 Ton Crane(৳25,000/day)</option>
+                                    <option value="Other/Purchase">Other/Equipment Purchase</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="duration">Rental Duration</label>
+                                <input
+                                type="number"
+                                id="duration"
+                                name="rent-duration"
+                                min="1"
+                                placeholder="e.g. 5"
+                                required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Project details</label>
+                                <textarea id="message" name="details" rows="5"
+                                 placeholder="Tell us about your project and requirements">
+                                </textarea>
+                            </div>
+                             <button type="submit" class="submit-button">Send Request</button>
+                        </form>
+                        </div>
         </section>
        </main>
        <footer>
