@@ -212,3 +212,8 @@ footer {
     color: #15803d;
     text-align: center;
 }
+.total-price{
+    margin:0.5rem 0.1rem;
+    font-weight:600;
+    color:#d97760;
+}

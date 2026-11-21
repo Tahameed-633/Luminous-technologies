@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Luminous Technologies</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head>
     <body>
        <header>
@@ -26,30 +27,7 @@
         </section>
         <section id="equipment">
             <h2>Equipment</h2>
-            <article>
-                <h3>Excavator</h3>
-                <img src="excavator.jpg" alt="Excavator">
-                <p>Rental Price: ৳15,000/day</p>
-                  <a href="#contacts">Rent Now</a>
-            </article>
-            <article>
-                <h3>Manlift</h3>
-                <img src="manlift.jpg" alt="Manlift">
-                <p>Rental Price: ৳12,000/day</p>
-                <a href="#contacts">Rent Now</a>
-            </article>
-            <article>
-                <h3>25 Ton Crane</h3>
-                <img src="25 ton crane.jpg " alt="25 Ton Crane">
-                <p>Rental Price:৳20,000/day</p>
-                <a href="#contacts">Rent Now</a>
-            </article>
-            <article>
-                <h3>100 Ton Crane</h3>
-                <img src="100 ton crane.jpg " alt="100 Ton Crane">
-                <p>Rental Price:৳25,000/day</p>
-                <a href="#contacts">Rent Now</a>
-            </article>
+           
         </section>
         <section id="services">
             <h2>Our services</h2>
@@ -137,6 +115,7 @@
                                 min="1"
                                 placeholder="e.g. 5"
                                 required>
+                                <p id="total-price" class="total-price"></p>
                             </div>
                             <div class="form-group">
                                 <label for="message">Project details</label>
@@ -150,7 +129,7 @@
         </section>
        </main>
        <footer>
-        <p>&copy; 2026 Luminous Technologies</p>
+        <p>&copy;<span id="year"></span> 2026 Luminous Technologies</p>
        </footer>
         </body>
 </html>
