@@ -142,5 +142,9 @@ The project is currently undergoing feature improvements and debugging before mo
 Developed for Luminous Technologies.
 
 ---
+## 🌐 Live Website
 
+**Live Preview:** [Luminous Technologies](https://super-space-fortnight-jjqw4prwr4jphqrrq-5501.app.github.dev/)
+
+> Note: This is a temporary GitHub Codespaces development preview. The website may not be accessible when the Codespace is stopped or the port is no longer publicly available.
 *Building Technology. Creating Opportunities.*
