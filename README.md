@@ -14,40 +14,60 @@ This website aims to provide customers with information about available construc
 
 ## 🎯 Project Objectives
 
-The primary objectives of this project are:
-
 - Establish a professional online presence for Luminous Technologies.
 - Showcase construction equipment and machinery.
 - Provide rental and purchasing information.
 - Make it easier for customers to contact the company.
-- Develop a responsive and user-friendly website.
+- Develop a user-friendly website.
 - Build a foundation for future business management features.
 
 ## 🛠️ Technologies Used
 
 | Technology | Purpose |
 |---|---|
-| HTML5 | Website structure |
-| CSS3 | Website styling and layout |
-| JavaScript | Interactive functionality |
+| HTML5 | Website structure and content |
+| CSS3 | Styling, layout, Flexbox and CSS Grid |
+| JavaScript | DOM manipulation and interactive functionality |
 | Git | Version control |
 | GitHub | Source code management |
 
-## ✨ Planned Features
+## ✨ Implemented Features
 
-- [x] Initial HTML structure
-- [ ] Professional homepage
-- [ ] Company introduction
-- [ ] Equipment catalog
-- [ ] Equipment rental section
-- [ ] Equipment sales section
-- [ ] Equipment details
-- [ ] Category-based filtering
-- [ ] Customer inquiry form
-- [ ] Contact information
+- [x] Initial HTML5 structure
+- [x] Website header and navigation
+- [x] Homepage and hero section
+- [x] Company introduction
+- [x] Equipment catalog structure
+- [x] Dynamic equipment cards using JavaScript
+- [x] Equipment rental pricing information
+- [x] Equipment rental and sales service section
+- [x] Contact information section
+- [x] Customer inquiry form
+- [x] Form input validation
+- [x] Bangladesh mobile number validation using Regular Expressions
+- [x] WhatsApp inquiry integration
+- [x] Automatic copyright year using JavaScript
+- [x] CSS styling and visual layout
+- [x] Flexbox and CSS Grid implementation
+- [x] Smooth scrolling navigation
+- [x] Sticky navigation header
+- [x] Basic hover and focus effects
+
+## 🚧 Upcoming Features
+
+- [ ] Fix and complete rental price calculation functionality
+- [ ] Equipment category-based filtering
+- [ ] Equipment details section
+- [ ] Separate equipment purchasing workflow
+- [ ] Improved form validation
 - [ ] Responsive mobile design
+- [ ] Performance optimization
+- [ ] SEO improvements
 - [ ] Admin dashboard
+- [ ] Backend integration
 - [ ] Database integration
+- [ ] Equipment management system
+- [ ] Customer inquiry management system
 
 ## 📂 Project Structure
 
@@ -59,6 +79,10 @@ luminous-technologies/
 ├── script.js
 │
 ├── images/
+│   ├── excavator.jpg
+│   ├── 25 ton crane.jpg
+│   ├── 100 ton crane.jpg
+│   └── manlift.jpg
 │
 └── README.md
 ```
@@ -66,17 +90,24 @@ luminous-technologies/
 ## 🚀 Development Roadmap
 
 ### Phase 1: Frontend Foundation
-- HTML structure
-- CSS styling
+- HTML5 document structure
+- CSS styling and layout
 - JavaScript fundamentals
-- Responsive layout
+- DOM manipulation
+- Basic form handling
+
+**Status: Mostly Completed**
 
 ### Phase 2: Website Development
-- Homepage
-- Equipment listings
+- Homepage development
+- Dynamic equipment listings
 - Rental and sales sections
-- Contact form
-- Interactive features
+- Customer inquiry form
+- WhatsApp integration
+- Rental price calculation
+- Responsive design
+
+**Status: In Progress**
 
 ### Phase 3: Backend Development
 - Backend architecture
@@ -85,6 +116,8 @@ luminous-technologies/
 - Equipment management
 - Customer inquiry management
 
+**Status: Not Started**
+
 ### Phase 4: Testing and Deployment
 - Functionality testing
 - Responsive testing
@@ -92,11 +125,17 @@ luminous-technologies/
 - Security improvements
 - Production deployment
 
+**Status: Not Started**
+
 ## 📈 Project Status
 
-**Currently:** Initial Development
+**Current Stage:** Frontend Development
 
-This project is being developed progressively, with a focus on professional web development practices and real-world business requirements.
+The initial frontend structure and styling have been implemented using HTML, CSS, and JavaScript.
+
+Dynamic equipment rendering, contact form handling, phone number validation, and WhatsApp inquiry integration have also been developed.
+
+The project is currently undergoing feature improvements and debugging before moving towards backend development.
 
 ## 👨‍💻 Development
 
