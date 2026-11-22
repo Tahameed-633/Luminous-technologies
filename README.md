@@ -6,6 +6,14 @@ A professional business website for Luminous Technologies, focused on constructi
 
 ---
 
+## 🌐 Live Website
+
+**Live Preview:** [Luminous Technologies](https://super-space-fortnight-jjqw4prwr4jphqrrq-5501.app.github.dev/)
+
+> **Note:** This is a temporary GitHub Codespaces development preview. The website may not be accessible when the Codespace is stopped or the port is no longer publicly available.
+
+---
+
 ## 📌 About the Company
 
 Luminous Technologies is a business focused on construction equipment and machinery services.
@@ -90,6 +98,7 @@ luminous-technologies/
 ## 🚀 Development Roadmap
 
 ### Phase 1: Frontend Foundation
+
 - HTML5 document structure
 - CSS styling and layout
 - JavaScript fundamentals
@@ -99,6 +108,7 @@ luminous-technologies/
 **Status: Mostly Completed**
 
 ### Phase 2: Website Development
+
 - Homepage development
 - Dynamic equipment listings
 - Rental and sales sections
@@ -110,6 +120,7 @@ luminous-technologies/
 **Status: In Progress**
 
 ### Phase 3: Backend Development
+
 - Backend architecture
 - Database integration
 - Admin dashboard
@@ -119,6 +130,7 @@ luminous-technologies/
 **Status: Not Started**
 
 ### Phase 4: Testing and Deployment
+
 - Functionality testing
 - Responsive testing
 - Performance optimization
@@ -142,9 +154,5 @@ The project is currently undergoing feature improvements and debugging before mo
 Developed for Luminous Technologies.
 
 ---
-## 🌐 Live Website
 
-**Live Preview:** [Luminous Technologies](https://super-space-fortnight-jjqw4prwr4jphqrrq-5501.app.github.dev/)
-
-> Note: This is a temporary GitHub Codespaces development preview. The website may not be accessible when the Codespace is stopped or the port is no longer publicly available.
 *Building Technology. Creating Opportunities.*
